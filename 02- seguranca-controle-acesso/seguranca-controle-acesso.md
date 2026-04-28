@@ -3,9 +3,11 @@
 ## 2.1 CREATE LOGIN
 
 **O que é:**
+
 Comando utilizado para criar uma credencial de acesso no nível da instância do SQL Server, permitindo autenticação no servidor.
 
 **Quando usar:**
+
 Utilizado quando um novo usuário, aplicação ou serviço precisa acessar a instância do SQL Server.
 
 ```sql
@@ -19,9 +21,11 @@ GO
 ## 2.2 CREATE USER
 
 **O que é:**
+
 Comando responsável por criar um usuário dentro de um banco de dados e vinculá-lo a um login existente.
 
 **Quando usar:**
+
 Utilizado quando um login já criado precisa receber acesso específico a um banco de dados.
 
 ```sql
