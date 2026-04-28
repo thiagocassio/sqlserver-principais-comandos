@@ -5,7 +5,7 @@
 ### O que é: 
 Comando utilizado para criar um novo banco de dados no SQL Server, definindo arquivos de dados, log e configurações iniciais.
 
-### Quando usar:
+**Quando usar:**
 Utilizado na criação de novos ambientes, implantação de sistemas, homologação, testes e novos projetos em produção.
 
 ```sql
