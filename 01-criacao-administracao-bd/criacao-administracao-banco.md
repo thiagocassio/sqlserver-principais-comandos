@@ -2,9 +2,13 @@
 
 ## 1.1 CREATE DATABASE
 
-**O que é:** Comando utilizado para criar um novo banco de dados no SQL Server, definindo arquivos de dados, log e configurações iniciais.
+**O que é:** 
 
-**Quando usar:** Utilizado na criação de novos ambientes, implantação de sistemas, homologação, testes e novos projetos em produção.
+Comando utilizado para criar um novo banco de dados no SQL Server, definindo arquivos de dados, log e configurações iniciais.
+
+**Quando usar:** 
+
+Utilizado na criação de novos ambientes, implantação de sistemas, homologação, testes e novos projetos em produção.
 
 ```sql
 CREATE DATABASE DBA_LAB
@@ -32,10 +36,12 @@ GO
 
 ## 1.2 ALTER DATABASE
 
-### O que é:
+**O que é:**
+
 Comando responsável por alterar configurações de um banco de dados já existente, como recovery model, opções de acesso e comportamento operacional.
 
-### Quando usar:
+**Quando usar:**
+
 Utilizado quando é necessário ajustar parâmetros do banco após sua criação ou adequar o ambiente a novas necessidades operacionais.
 
 ```sql
@@ -52,10 +58,12 @@ GO
 
 ## 1.3 DROP DATABASE
 
-### O que é:
+**O que é:**
+
 Comando utilizado para remover permanentemente um banco de dados do servidor SQL Server.
 
-### Quando usar:
+**Quando usar:**
+
 Utilizado em ambientes de testes, homologação ou quando um banco precisa ser descontinuado de forma controlada.
 
 ```sql
@@ -72,10 +80,12 @@ GO
 
 ## 1.4 Filegroups
 
-### O que é:
+**O que é:**
+
 Estrutura lógica usada para organizar arquivos físicos de dados dentro de um banco de dados.
 
-### Quando usar:
+**Quando usar:**
+
 Utilizado para distribuir grandes volumes de dados, melhorar administração de storage e facilitar estratégias de backup e restore.
 
 ```sql
@@ -88,10 +98,12 @@ GO
 
 ## 1.5 Datafiles / Logfiles
 
-### O que é:
+**O que é:**
+
 Arquivos físicos responsáveis pelo armazenamento dos dados (.mdf/.ndf) e do log de transações (.ldf) do banco.
 
-### Quando usar:
+**Quando usar:**
+
 Utilizado na criação e expansão de bancos, separação de cargas e melhor gerenciamento de desempenho e armazenamento.
 
 ```sql
@@ -111,10 +123,12 @@ GO
 
 ## 1.6 Recovery Model
 
-### O que é:
+**O que é:**
+
 Configuração que define como o SQL Server gerencia o log de transações e a capacidade de recuperação de dados.
 
-### Quando usar:
+**Quando usar:**
+
 Utilizado para definir estratégias de backup e restore conforme a necessidade de recuperação do ambiente, como FULL, SIMPLE ou BULK_LOGGED.
 
 ```sql
