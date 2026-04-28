@@ -2,6 +2,14 @@
 
 ## 5.1 Execution Plan
 
+**O que é:**
+
+Recurso utilizado para mostrar como o SQL Server executa uma consulta, exibindo operadores, custos e possíveis gargalos.
+
+**Quando usar:**
+
+Utilizado na análise de consultas lentas, identificação de scans desnecessários e oportunidades de otimização.
+
 ```sql
 SET STATISTICS IO ON;
 SET STATISTICS TIME ON;
@@ -24,6 +32,14 @@ GO
 
 ## 5.2 DMVs principais
 
+**O que é:**
+
+Dynamic Management Views são visões internas que mostram informações de desempenho, uso de recursos e comportamento do servidor.
+
+**Quando usar:**
+
+Utilizado para monitoramento contínuo, troubleshooting e análise de consumo de CPU, memória, I/O e sessões.
+
 ```sql
 SELECT
     DB_NAME(database_id) AS NM_DATABASE,
@@ -39,6 +55,14 @@ GO
 ---
 
 ## 5.3 Query Store
+
+**O que é:**
+
+Recurso que armazena histórico de execução de consultas, planos e desempenho ao longo do tempo.
+
+**Quando usar:**
+
+Utilizado para investigar degradação de performance, regressão de planos e análise histórica de queries.
 
 ```sql
 ALTER DATABASE DBA_LAB
@@ -57,6 +81,14 @@ GO
 
 ## 5.4 Statistics
 
+**O que é:**
+
+Informações utilizadas pelo otimizador de consultas para estimar volume de dados e escolher o melhor plano de execução.
+
+**Quando usar:**
+
+Utilizado na análise de performance quando há planos ruins causados por estimativas incorretas.
+
 ```sql
 SELECT
     name AS NM_ESTATISTICA,
@@ -71,6 +103,14 @@ GO
 ---
 
 ## 5.5 Missing Index
+
+**O que é:**
+
+Recurso que indica possíveis índices que podem melhorar o desempenho de consultas executadas no ambiente.
+
+**Quando usar:**
+
+Utilizado durante tuning de performance para identificar oportunidades de criação de novos índices.
 
 ```sql
 SELECT
@@ -93,6 +133,14 @@ GO
 
 ## 5.6 Wait Stats
 
+**O que é:**
+
+Métrica que mostra onde o SQL Server está aguardando recursos, ajudando a identificar gargalos de desempenho.
+
+**Quando usar:**
+
+Utilizado em investigações de lentidão geral, travamentos e análise de comportamento do servidor.
+
 ```sql
 SELECT TOP 20
     wait_type,
@@ -107,6 +155,14 @@ GO
 ---
 
 ## 5.7 TempDB análise
+
+**O que é:**
+
+Avaliação do uso do banco TempDB, responsável por objetos temporários, ordenações e operações internas do SQL Server.
+
+**Quando usar:**
+
+Utilizado quando há lentidão, contenção ou alto consumo de disco relacionado ao TempDB.
 
 ```sql
 SELECT
