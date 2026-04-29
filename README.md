@@ -41,7 +41,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * ALTER AUTHORIZATION
 * Schemas
 
-### 3. Backup e Restore
+### [3. Backup e Restore](03-backup-restore/backup-restore.md)
 
 * BACKUP DATABASE
 * BACKUP LOG
@@ -51,7 +51,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * FILEGROUP Restore
 * Point-in-Time Restore
 
-### 4. Integridade e Manutenção
+### [4. Integridade e Manutenção](04-integridade-manutencao/integridade-manutencao.md)
 
 * DBCC CHECKDB
 * DBCC CHECKTABLE
@@ -60,7 +60,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * ALTER INDEX REBUILD
 * ALTER INDEX REORGANIZE
 
-### 5. Performance e Tuning
+###[5. Performance e Tuning](performance-tuning/performance-tuning.md)
 
 * Execution Plan
 * DMVs principais
@@ -70,7 +70,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Wait Stats
 * TempDB análise
 
-### 6. Índices e Estruturas
+### [6. Índices e Estruturas](06-indices-estruturas/indices-estruturas.md)
 
 * CREATE INDEX
 * DROP INDEX
@@ -80,7 +80,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Filtered Index
 * Partitioning
 
-### 7. Monitoramento e Troubleshooting
+### [7. Monitoramento e Troubleshooting](07-monitoramento-troubleshotting/monitoramento-troubleshooting.md)
 
 * Blocking
 * Deadlocks
@@ -90,7 +90,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Error Log
 * SQL Server Logs
 
-### 8. SQL Server Agent e Automação
+### [8. SQL Server Agent e Automação](08-sql-server-agent-automcao/sql-server-agent-automacao.md)
 
 * Jobs
 * Schedules
@@ -98,7 +98,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Operators
 * Maintenance Tasks
 
-### 9. Criptografia e Segurança Avançada
+### [9. Criptografia e Segurança Avançada](09-criptografica-seguranca-avancada/criptografia-seguranca-avancada.md)
 
 * TDE
 * Always Encrypted
@@ -107,7 +107,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Symmetric Keys
 * Backup Encryption
 
-### 10. Alta Disponibilidade e DR
+### [10. Alta Disponibilidade e DR](10-alta-disponibilidade-dr/alta-disponibilidade-dr.md)
 
 * Log Shipping
 * Replication
@@ -116,7 +116,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Restore Strategy
 * RPO / RTO
 
-### 11. Particionamento e Grandes Volumes
+### [11. Particionamento e Grandes Volumes](11-particionamento/particionamento-grandes-volumes.md)
 
 * Partition Function
 * Partition Scheme
@@ -124,7 +124,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Filegroup por partição
 * Archive Strategy
 
-### 12. Scripts Essenciais de DBA
+### [12. Scripts Essenciais de DBA](12-scripts-essenciais/scripts-essenciais-dba.md)
 
 * Espaço em disco
 * Crescimento de banco
