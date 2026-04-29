@@ -23,7 +23,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 
 ## Estrutura do Projeto
 
-### [1. Criação e Administração de Banco de Dados](01-criacao-administracao-bd\criacao-administracao-banco.md)
+### [1. Criação e Administração de Banco de Dados](01-criacao-administracao-bd/criacao-administracao-banco.md)
 
 * CREATE DATABASE
 * ALTER DATABASE
