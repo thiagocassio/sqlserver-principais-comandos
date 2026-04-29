@@ -60,7 +60,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * ALTER INDEX REBUILD
 * ALTER INDEX REORGANIZE
 
-### [5. Performance e Tuning](performance-tuning/performance-tuning.md)
+### [5. Performance e Tuning](05-performance-tuning/performance-tuning.md)
 
 * Execution Plan
 * DMVs principais
@@ -80,7 +80,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Filtered Index
 * Partitioning
 
-### [7. Monitoramento e Troubleshooting](07-monitoramento-troubleshoOting/monitoramento-troubleshooting.md)
+### [7. Monitoramento e Troubleshooting](07-monitoramento-troubleshooting/monitoramento-troubleshooting.md)
 
 * Blocking
 * Deadlocks
