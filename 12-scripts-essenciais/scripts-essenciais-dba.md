@@ -2,6 +2,14 @@
 
 ## 12.1 Espaço em disco
 
+**O que é:**
+
+Consulta utilizada para verificar o espaço livre disponível nos discos do servidor onde o SQL Server está operando.
+
+**Quando usar:**
+
+Utilizado em monitoramento preventivo para evitar indisponibilidade causada por falta de espaço em disco.
+
 ```sql
 EXEC xp_fixeddrives;
 GO
@@ -10,6 +18,14 @@ GO
 ---
 
 ## 12.2 Crescimento de banco
+
+**O que é:**
+
+Análise do tamanho atual e crescimento dos arquivos de dados e log dos bancos de dados.
+
+**Quando usar:**
+
+Utilizado para planejamento de capacidade, controle de expansão e prevenção de problemas de storage.
 
 ```sql
 SELECT
@@ -23,6 +39,14 @@ GO
 ---
 
 ## 12.3 Backup sem execução
+
+**O que é:**
+
+Verificação que identifica bancos de dados que não receberam backup dentro do período esperado.
+
+**Quando usar:**
+
+Utilizado em auditorias operacionais e validação de rotinas de proteção e disaster recovery.
 
 ```sql
 SELECT
@@ -43,6 +67,14 @@ GO
 
 ## 12.4 Jobs com falha
 
+**O que é:**
+
+Consulta utilizada para localizar jobs do SQL Server Agent que falharam em execuções recentes.
+
+**Quando usar:**
+
+Utilizado no acompanhamento diário de rotinas automatizadas e resposta rápida a falhas operacionais.
+
 ```sql
 SELECT
     j.name AS JOB_NAME,
@@ -60,6 +92,14 @@ GO
 
 ## 12.5 Usuários sem uso
 
+**O que é:**
+
+Análise que ajuda a identificar usuários e acessos que não possuem mais necessidade operacional no ambiente.
+
+**Quando usar:**
+
+Utilizado em revisões de segurança, auditoria de acessos e aplicação do princípio do menor privilégio.
+
 ```sql
 SELECT
     name,
@@ -74,6 +114,14 @@ GO
 ---
 
 ## 12.6 Health Check geral
+
+**O que é:**
+
+Conjunto de verificações básicas para avaliar rapidamente a saúde operacional do SQL Server e dos bancos hospedados.
+
+**Quando usar:**
+
+Utilizado em rotinas preventivas, diagnósticos iniciais e validação geral da estabilidade do ambiente.
 
 ```sql
 SELECT
