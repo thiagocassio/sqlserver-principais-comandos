@@ -32,7 +32,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Datafiles / Logfiles
 * Recovery Model
 
-### [2. Segurança e Controle de Acesso](02-seguranca-controle-acesso/seguranca-controle-acesso)
+### [2. Segurança e Controle de Acesso](02-seguranca-controle-acesso/seguranca-controle-acesso.md)
 
 * CREATE LOGIN
 * CREATE USER
