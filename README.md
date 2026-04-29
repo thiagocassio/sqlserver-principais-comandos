@@ -23,7 +23,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 
 ## Estrutura do Projeto
 
-### 1. Criação e Administração de Banco de Dados
+### [1. Criação e Administração de Banco de Dados](01-criacao-administracao-bd\criacao-administracao-banco.md)
 
 * CREATE DATABASE
 * ALTER DATABASE
@@ -32,7 +32,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Datafiles / Logfiles
 * Recovery Model
 
-### 2. Segurança e Controle de Acesso
+### [2. Segurança e Controle de Acesso](02-seguranca-controle-acesso/seguranca-controle-acesso)
 
 * CREATE LOGIN
 * CREATE USER
