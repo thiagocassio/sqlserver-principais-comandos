@@ -60,7 +60,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * ALTER INDEX REBUILD
 * ALTER INDEX REORGANIZE
 
-###[5. Performance e Tuning](performance-tuning/performance-tuning.md)
+### [5. Performance e Tuning](performance-tuning/performance-tuning.md)
 
 * Execution Plan
 * DMVs principais
@@ -80,7 +80,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Filtered Index
 * Partitioning
 
-### [7. Monitoramento e Troubleshooting](07-monitoramento-troubleshotting/monitoramento-troubleshooting.md)
+### [7. Monitoramento e Troubleshooting](07-monitoramento-troubleshoOting/monitoramento-troubleshooting.md)
 
 * Blocking
 * Deadlocks
@@ -90,7 +90,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Error Log
 * SQL Server Logs
 
-### [8. SQL Server Agent e Automação](08-sql-server-agent-automcao/sql-server-agent-automacao.md)
+### [8. SQL Server Agent e Automação](08-sql-server-agent-automacao/sql-server-agent-automacao.md)
 
 * Jobs
 * Schedules
@@ -98,7 +98,7 @@ Todos os scripts seguem uma taxonomia padronizada de nomes para facilitar a leit
 * Operators
 * Maintenance Tasks
 
-### [9. Criptografia e Segurança Avançada](09-criptografica-seguranca-avancada/criptografia-seguranca-avancada.md)
+### [9. Criptografia e Segurança Avançada](09-criptografia-seguranca-avancada/criptografia-seguranca-avancada.md)
 
 * TDE
 * Always Encrypted
